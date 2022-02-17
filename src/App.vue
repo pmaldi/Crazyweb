@@ -18,17 +18,17 @@
 </template>
 
 <script>
-import Home from './components/Home.vue'
-import LoadingScreen from './components/LoadingScreen.vue'
-import Twitch from './components/Twitch.vue'
-import TwitchVideos from './components/TwitchVideos.vue'
-import Spacer from './components/Spacer.vue'
-import YoutubeVideos from './components/YoutubeVideos.vue'
-import Friends from './components/Friends.vue'
-import Footer from './components/Footer.vue'
+import Home from "./components/Home.vue";
+import LoadingScreen from "./components/LoadingScreen.vue";
+import Twitch from "./components/Twitch.vue";
+import TwitchVideos from "./components/TwitchVideos.vue";
+import Spacer from "./components/Spacer.vue";
+import YoutubeVideos from "./components/YoutubeVideos.vue";
+import Friends from "./components/Friends.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     LoadingScreen,
     Home,
@@ -37,7 +37,7 @@ export default {
     Spacer,
     YoutubeVideos,
     Friends,
-    Footer
+    Footer,
   },
   data() {
     return { isLoading: true };
@@ -46,10 +46,9 @@ export default {
     setTimeout(() => {
       this.isLoading = false;
     }, 3000);
-  }
+  },
 };
 </script>
 
 <style>
-
 </style>
