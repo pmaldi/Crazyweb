@@ -32,7 +32,7 @@
 
 <script>
 export default {
-    name: "Spacer",
+    name: "Spacer-component",
     props: {
         isBetweenComponent: Boolean
 }};

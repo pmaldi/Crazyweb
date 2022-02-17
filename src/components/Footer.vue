@@ -36,8 +36,9 @@
 
 <script>
 export default {
-    
-}
+  name: "Footer-component",
+  props: {  }
+};
 </script>
 
 <style scoped>

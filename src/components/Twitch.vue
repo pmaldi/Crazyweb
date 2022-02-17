@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "Twitch",
+  name: "Twitch-component",
     methods: {
     GoFullscreen: function () {
         let widthUser = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);

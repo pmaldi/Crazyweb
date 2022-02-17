@@ -104,7 +104,7 @@
 <script>
 import $ from 'jquery'
 export default {
-    name: "Friends",
+    name: "Friends-component",
         methods:{
             MaterialCard: function() {
             $(function() {

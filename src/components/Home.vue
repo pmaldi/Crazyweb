@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "Home-component",
   props: {  }
 };
 </script>
